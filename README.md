@@ -1,2 +1,2 @@
-# Vizitka_frontend
+# vizitka_frontend
 I'm the best!!!

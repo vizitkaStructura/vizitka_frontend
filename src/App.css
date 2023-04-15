@@ -1,39 +1,401 @@
 .App {
-  text-align: center;
+   background: #E667AF;
+   font-family: 'SF UI Display';
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-self: center;
+   min-height: 1568px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.content {
+   margin: 30px;
+   height: 100%;
+   z-index: 3;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.header__title {
+   color: #fff;
+   font-size: 50px;
+   line-height: 60px;
+   font-weight: 700;
+   padding: 30px 30px 7px 30px;
+   text-align: center;
+}
+
+.header__img1 {
+   position: absolute;
+   width: 386px;
+   height: 386px;
+   left: -213px;
+   top: -126px;
+   z-index: 5;
+}
+
+.header__img2 {
+   position: absolute;
+   width: 289px;
+   height: 289px;
+   right: 0px;
+   top: 286px;
+}
+
+.header__img3 {
+   position: absolute;
+   width: 238px;
+   height: 238px;
+   left: -50px;
+   top: 560px;
+}
+
+.header__img7 {
+   position: absolute;
+   width: 187px;
+   height: 187px;
+   right: 0px;
+   top: 835px;
+}
+
+.header__img10 {
+   position: absolute;
+   width: 281px;
+   height: 281px;
+   left: 19px;
+   top: 1043px;
+}
+
+.header__img17 {
+   position: absolute;
+   width: 181px;
+   height: 181px;
+   right: 0px;
+   top: 1375px;
+}
+
+.imgF1 {
+   text-align: center;
+}
+
+.imgF2 {
+   text-align: center;
+   position: relative;
+   bottom: 35px;
+   margin: 0 0 37px 0;
+}
+
+div.qq {
+   background-color: rgba(255, 150, 64, 0.7);
+   border-radius: 50%;
+   z-index: -1;
+   overflow: hidden;
+}
+
+.main__hi {
+   display: inline-block;
+   color: #FFFFFF;
+   font-weight: 550;
+   font-size: 25px;
+   line-height: 30px;
+   padding: 30px;
+   background: #FF4040;
+   border-radius: 30px;
+   text-align: left;
+   box-shadow: -3px 8px 8px 0px rgba(34, 60, 80, 0.3);
+}
+
+.tool {
+   margin: 20px 0;
+      display: inline-block;
+      color: #FFFFFF;
+      font-weight: 550;
+      font-size: 25px;
+      line-height: 30px;
+      padding: 15px 20px;
+      background: #FF4040;
+      border-radius: 20px;
+      box-shadow: -3px 8px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+.block {
+   display: flex;
+   justify-content: start;
+   align-self: center;
+}
+
+.row {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-self: center;
+   width: 95px;
+   height: 95px;
+   background: #FF7373;
+   border-radius: 20px;
+   box-shadow: -3px 8px 8px 0px rgba(34, 60, 80, 0.2);
+   margin: 0 9px;
+}
+
+.row {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-self: center;
+   width: 95px;
+   height: 95px;
+   background: #FF7373;
+   border-radius: 20px;
+   box-shadow: -3px 8px 8px 0px rgba(34, 60, 80, 0.2);
+   margin: 0 9px;
+}
+
+.row1 {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-self: center;
+   width: 140px;
+   height: 95px;
+   background: #FF7373;
+   border-radius: 20px;
+   box-shadow: -3px 8px 8px 0px rgba(34, 60, 80, 0.2);
+   margin: 0 9px;
+}
+
+.imgrow {
+   position: relative;
+   left: 26px;
+   top: 2px;
+   height: 42px;
+   width: 42px;
+   margin: 0 0 4px 0;
+}
+
+.imgrow2 {
+   position: relative;
+   left: 22px;
+   top: 15px;
+   height: 52px;
+   width: 52px;
+   margin: 0 0 4px 0;
+}
+
+.imgrow3 {
+   position: relative;
+   left: 31px;
+   bottom: 19px;
+   height: 24px;
+   width: 32px;
+}
+
+.imgrow4 {
+   position: relative;
+   left: 46px;
+   height: 42px;
+   width: 42px;
+   margin: 0 0 8px 0;
+}
+
+.text {
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 19px;
+   color: #FF4040;
+   text-align: center;
+}
+
+.text1 {
+   position: relative;
+   bottom: 8px;
+}
+
+.text2 {
+   position: relative;
+   top: 4px;
+}
+
+
+.balls__my {
+   color: #fff;
+   font-weight: 550;
+   font-size: 40px;
+   line-height: 48px;
+   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.balls__count {
+   color: #fff;
+   font-weight: 550;
+   font-size: 53px;
+   line-height: 48px;
+   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   margin: 10px 0 0 0;
+}
+
+.balls {
+   margin: 25px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Обнуление*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0; }
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+:focus, :active {
+  outline: none; }
+
+a:focus, a:active {
+  outline: none; }
+
+nav, footer, header, aside {
+  display: block; }
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%; }
+
+input, button, textarea {
+  font-family: inherit; }
+
+input::-ms-clear {
+  display: none; }
+
+button {
+  cursor: pointer; }
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0; }
+
+a, a:visited {
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: none; }
+
+ul li {
+  list-style: none; }
+
+img {
+  vertical-align: top; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400; }
+
+
+
+  /*Обнуление*/
+  * {
+     padding: 0;
+     margin: 0;
+     border: 0;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-  font-size: 36px;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  *,
+  *:before,
+  *:after {
+     -moz-box-sizing: border-box;
+     -webkit-box-sizing: border-box;
+     box-sizing: border-box;
   }
-  to {
-    transform: rotate(360deg);
+
+  :focus,
+  :active {
+     outline: none;
   }
-}
+
+  a:focus,
+  a:active {
+     outline: none;
+  }
+
+  nav,
+  footer,
+  header,
+  aside {
+     display: block;
+  }
+
+  html,
+  body {
+     height: 100%;
+     width: 100%;
+     font-size: 100%;
+     line-height: 1;
+     font-size: 14px;
+     -ms-text-size-adjust: 100%;
+     -moz-text-size-adjust: 100%;
+     -webkit-text-size-adjust: 100%;
+  }
+
+  input,
+  button,
+  textarea {
+     font-family: inherit;
+  }
+
+  input::-ms-clear {
+     display: none;
+  }
+
+  button {
+     cursor: pointer;
+  }
+
+  button::-moz-focus-inner {
+     padding: 0;
+     border: 0;
+  }
+
+  a,
+  a:visited {
+     text-decoration: none;
+  }
+
+  a:hover {
+     text-decoration: none;
+  }
+
+  ul li {
+     list-style: none;
+  }
+
+  img {
+     vertical-align: top;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+     font-size: inherit;
+     font-weight: 400;
+  }
+
